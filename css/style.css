@@ -1,0 +1,532 @@
+﻿.w980 {
+    width: 980px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.main {
+    background: #dcdddd;
+}
+
+ul {
+    list-style: none;
+}
+
+.fix {
+    *zoom: 1;
+}
+
+.fix:after {
+    display: block;
+    content: "clear";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hiddn;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+.power {
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/*部分开始-----------------------------------------------------*/
+
+
+/*banner*/
+
+.none {
+    display: none;
+}
+
+.banner {
+    width: 1024;
+    min-width: 980px;
+    height: 572px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.banner_show {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 572px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bannger_inbox {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin: 0 auto;
+    float: left;
+}
+
+
+/*翻页*/
+
+.banner_pre_next {
+    position: relative;
+    z-index: 105;
+    top: 520px;
+    width: 980px;
+    left: 50%;
+    height: 37px;
+    margin-left: -500px;
+    *left: 240px;
+}
+
+.banner_pre_next a {
+    width: 37px;
+    height: 37px;
+    background: url(../images/btn.png) no-repeat;
+    text-indent: -999em;
+}
+
+.banner_pre_next .banner_btn_left {
+    position: absolute;
+    left: -37px;
+    background-position: 0px 0px;
+}
+
+.banner_pre_next .banner_btn_right {
+    position: absolute;
+    right: -37px;
+    background-position: -37px 0px;
+}
+
+
+/*圆点*/
+
+.yq_banner_list {
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    top: 485px;
+    text-align: right;
+    z-index: 100;
+    left: 120px;
+    padding-right: 12px;
+}
+
+.yq_banner_list a {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: url(../images/abg.png) no-repeat right;
+    margin-right: 10px;
+}
+
+.yq_banner_list a.hover {
+    background: url(../images/abg.png) no-repeat left;
+}
+
+
+/*文字*/
+
+.banner_mag {
+    width: 345px;
+    height: 520px;
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    top: 0px;
+    margin-left: -500px;
+    text-align: left;
+    z-index: 99;
+    font-family: "Microsoft YaHei";
+}
+
+.banner_magbox {
+    height: 520px;
+    background: url(../images/ico3.png) repeat;
+    text-align: left;
+    padding: 80px 30px 35px;
+}
+
+.banner_magbox .focus-img {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.banner_magbox h4 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.banner_magbox h4 a {
+    color: #fff;
+}
+
+.banner_magbox p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 22px;
+}
+
+
+/*新闻*/
+
+.focus-news {
+    height: 100px;
+    color: #fff;
+    padding: 30px 0px 10px 0px;
+    background: #30a7e0;
+    position: absolute;
+    bottom: 0px;
+    width: 980px;
+    left: 50%;
+    margin-left: -500px;
+    z-index: 9999;
+    font-family: "Microsoft YaHei";
+}
+
+.index-news-title {
+    float: left;
+    width: 130px;
+    margin-right: 60px;
+    position: relative;
+    padding-left: 70px;
+}
+
+.index-news-title h2 {
+    font-size: 20px;
+    height: 30px;
+    font-weight: normal;
+}
+
+.index-tabs {
+    position: absolute;
+    right: 0px;
+    width: 34px;
+    bottom: 10px;
+}
+
+.index-tabs li {
+    width: 17px;
+    height: 17px;
+    float: left;
+    cursor: pointer;
+    background: url(../images/dot.gif) no-repeat;
+}
+
+.index-tabs li.prev {
+    background-position: 0px 0px;
+}
+
+.index-tabs li.next {
+    background-position: -19px 0px;
+}
+
+.index-news-show {
+    float: left;
+    width: 460px;
+}
+
+.index-news-show ul {}
+
+.index-news-show ul li {
+    float: left;
+    width: 230px;
+}
+
+.index-news-show ul li h2 {
+    font-size: 14px;
+}
+
+.index-news-show ul li h2 a {
+    color: #fff;
+}
+
+.index-news-show ul li p {
+    font-size: 14px;
+}
+
+.index-news-show ul.hide {
+    display: none;
+}
+
+.index-news-tel {
+    font-weight: bold;
+    float: right;
+    padding-left: 30px;
+    background: url(../images/tel.gif) left no-repeat;
+    font-size: 20px;
+    width: 180px;
+}
+
+
+/*1部分结束-----------------------------------------------------*/
+
+.a2body {
+    text-align: center;
+    margin: 0px;
+    font: 15px/1.8 楷体;
+    background: url(../images/yi001.jpg) repeat center top;
+    margin: 0 auto;
+}
+
+.a2p01 {
+    margin: 10px;
+    font: 13px/1.8 楷体;
+    text-indent: 2em;
+    text-aling: left;
+}
+
+#a2container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#a2navi {
+    clear: both;
+    background: #ffdab9;
+    margin: 5px 15px;
+    height: 36px;
+    border: 3px #fff solid;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px #CCC;
+}
+
+#a2navi span {
+    display: block;
+    float: left;
+    width: 80px;
+    padding: 5px;
+    margin: 10px 10px;
+    font: 14px 楷体;
+    color: #FFF;
+}
+
+#a2navi span a {
+    text-decoration: none;
+}
+
+#a2main1 {
+    clear: both;
+    margin: 2px;
+    height: 340px;
+}
+
+#a2main1_left {
+    float: left;
+    width: 300px;
+    height: 340px;
+    background: url(../images/venice02.jpg) no-repeat center top;
+}
+
+#main-right {
+    float: right;
+    width: 700px;
+    height: 350px;
+    overflow: auto;
+}
+
+#a2main1_left p {
+    margin: 60px 50px;
+    font-size: 18px;
+}
+
+#a2main2 {
+    clear: both;
+    margin: 2px;
+    height: 196px;
+}
+
+#a2main2_left {
+    width: 220px;
+    float: left;
+}
+
+#a2main2_right {
+    overflow: auto;
+    float: right;
+    width: 790px;
+    height: 150px;
+    border: 1px #a4db18 solid;
+    border-radius: 5px;
+}
+
+#a2main2_left ul {
+    margin: 0;
+    padding: 0;
+}
+
+#a2main2_left ul li {
+    list-style: none;
+    font: 13px/1.8 楷体;
+    margin: 5px auto;
+    padding: 3px;
+    border: 1px #ebf811 solid;
+    background: #a4db18;
+    width: 85%;
+    border-radius: 4px;
+}
+
+#a2main2_left ul li:hover {
+    background: #ebf811;
+}
+
+#a2main5 {
+    clear: both;
+    margin: 2px;
+    height: 300px;
+}
+
+#a2main5_left {
+    width: 500px;
+    float: left;
+}
+
+#a2main5_right {
+    float: right;
+    width: 500px;
+    border: 1px #a4db18 solid;
+    border-radius: 5px;
+}
+
+#a2main5_left ul {
+    margin: 0;
+    padding: 0;
+}
+
+#a2main5_left ul li {
+    list-style: none;
+    font: 13px/1.8 楷体;
+    margin: 5px auto;
+    padding: 3px;
+    border: 1px #ebf811 solid;
+    background: #a4db18;
+    width: 85%;
+    border-radius: 4px;
+}
+
+#a2main5_left ul li:hover {
+    background: #ebf811;
+}
+
+#a2main6 {
+    clear: both;
+    margin: 2px;
+    height: 300px;
+}
+
+#a2main6_left {
+    width: 500px;
+    float: left;
+}
+
+#a2main6_right {
+    float: right;
+    width: 500px;
+    border: 1px #a4db18 solid;
+    border-radius: 5px;
+}
+
+#a2main6_left ul {
+    margin: 0;
+    padding: 0;
+}
+
+#a2main6_left ul li {
+    list-style: none;
+    font: 13px/1.8 楷体;
+    margin: 5px auto;
+    padding: 3px;
+    border: 1px #ebf811 solid;
+    background: #a4db18;
+    width: 85%;
+    border-radius: 4px;
+}
+
+#a2main6_left ul li:hover {
+    background: #ebf811;
+}
+
+# div a2footer1 {
+    float: right;
+    font-family: 华文楷体，宋体；
+}
+
+#a2footer {
+    font-family: Segoe Print;
+    float: left;
+}
+
+.f7 {
+    float: right;
+    font-family: 华文楷体, 华文行楷;
+    宋体;
+    font-size: 15px;
+}
+
+.f8 {
+    float: left;
+    font-family: 华文楷体, 华文行楷;
+    宋体;
+}
+
+
+/*图片流..........................................................*/
+
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+img {
+    border: none
+}
+
+#acontent {
+    width: 1024px;
+    margin: 0px auto;
+    overflow: hidden
+}
+
+.waterfall {
+    width: 1024px;
+}
+
+.dym-dl {
+    width: 244px;
+    height: 800px;
+    padding-right: 12px;
+    float: left;
+    overflow: hidden;
+    position: relative
+}
+
+.dym {
+    border: 1px solid #efeff0;
+    background: #f7f7f7;
+    height: auto;
+    padding: 14px;
+    margin: 0px 12px 12px 0px;
+    float: left;
+    overflow: hidden;
+    display: inline
+}
+
+.dym img {
+    max-width: 200px;
+    _width: 200px
+}
